@@ -1,0 +1,26 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "built_validation.js",
+  "dependencies": {
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenil8460/mongo.git"
+  },
+  "keywords": [
+    "validator"
+  ],
+  "author": "Fenil Mendapara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenil8460/mongo/issues"
+  },
+  "homepage": "https://github.com/fenil8460/mongo#readme"
+}
