@@ -20,10 +20,16 @@ const playlistschema = new mongoose.Schema({
     },
     videos:{
         type:Number,
-        validate(value){
-            if(value<0){
-                throw new Error('videos count should not negative');
-            }
+        // validate(value){
+        //     if(value<0){
+        //         throw new Error('videos count should not negative');
+        //     }
+        // }
+        validate:{
+            validator:function(value){
+                return value.length < 0
+            },
+            message:"videos count should not negative"
         }
 
     },
